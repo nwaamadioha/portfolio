@@ -114,8 +114,8 @@
     }
 
     div:nth-child(1) {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
     }
     div:nth-child(2) {
         margin: 1.75rem;
@@ -123,8 +123,8 @@
         height: 90px;
     }
     div:nth-child(3) {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
     @media screen and (min-width: 2000px) {
         div:nth-child(1) {
@@ -149,6 +149,21 @@
         div {
             margin: 1rem;
         }
+
+        div:nth-child(1) {
+            width: 80px;
+            height: 80px;
+        }
+        div:nth-child(2) {
+            margin: 1.75rem;
+            width: 80px;
+            height: 80px;
+        }
+        div:nth-child(3) {
+            width: 80px;
+            height: 80px;
+        }
+           
     }
 }
 
