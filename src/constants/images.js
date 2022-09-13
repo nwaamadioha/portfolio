@@ -17,8 +17,6 @@ import sass from '../assets/sass.png';
 import circle from '../assets/circle.svg';
 import profile from '../assets/profile.png';
 
-
-
 export default {
   email,
   mobile,
@@ -37,3 +35,4 @@ export default {
   profile,
 
 };
+
